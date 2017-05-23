@@ -1,11 +1,13 @@
 <?php
 /**
- * Get Streaming Data Over Jquery Ajax. PHP response data after certain progress complete.
+ * Catch php output buffering data over jQuery AJAX
  *
  * @author: Sohel Rana (me.sohelrana@gmail.com)
- * @author url: https://blog.sohelrana.me/get-streaming-data-jquery-ajax/
+ * @author url: https://blog.sohelrana.me
+ * @link: https://blog.sohelrana.me/catch-php-output-buffering-data-jquery-ajax/
  * @licence MIT
  */
+
 set_time_limit(0);
 ob_implicit_flush(true);
 ob_end_flush();
